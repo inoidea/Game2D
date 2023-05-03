@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -46,4 +46,7 @@ TagManager:
     locked: 0
   - name: Cannon
     uniqueID: 3229598907
+    locked: 0
+  - name: Player
+    uniqueID: 3996190017
     locked: 0
