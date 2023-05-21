@@ -68,6 +68,14 @@
     <Compile Include="Assets\Scripts\Controller\EmitterController.cs" />
     <Compile Include="Assets\Scripts\Controller\CannonController.cs" />
     <Compile Include="Assets\Scripts\View\CannonView.cs" />
+    <Compile Include="Assets\Scripts\AI\EnemyView.cs" />
+    <Compile Include="Assets\Scripts\AI\AIConfig.cs" />
+    <Compile Include="Assets\Scripts\AI\SimplePatrolAIModel.cs" />
+    <Compile Include="Assets\Scripts\AI\SimplePatrolAI.cs" />
+    <Compile Include="Assets\Scripts\AI\LevelObjectTrigger.cs" />
+    <Compile Include="Assets\Scripts\AI\IProtector.cs" />
+    <Compile Include="Assets\Scripts\AI\ProtectedZone.cs" />
+    <Compile Include="Assets\Scripts\AI\PatrolAIModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -315,6 +323,9 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -759,6 +770,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{04052F7F-BB88-C06C-01CF-E8EE2F93A526}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{8680267D-79CF-8A73-4DDA-B1B0961F64D2}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{91B827CD-39F4-0A51-2DD2-D2BC2AA88E9D}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
