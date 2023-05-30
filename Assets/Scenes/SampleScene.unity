@@ -452,9 +452,10 @@ GameObject:
   m_Component:
   - component: {fileID: 71315092}
   - component: {fileID: 71315093}
+  - component: {fileID: 71315095}
   m_Layer: 0
   m_Name: Coin_0 (5)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -526,6 +527,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &71315095
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71315091}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &116385577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,9 +1196,10 @@ GameObject:
   m_Component:
   - component: {fileID: 205531772}
   - component: {fileID: 205531773}
+  - component: {fileID: 205531775}
   m_Layer: 0
   m_Name: Coin_0 (14)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1253,6 +1271,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &205531775
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205531771}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &224843834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,6 +1711,7 @@ MonoBehaviour:
     - {fileID: 224843835}
   _enemyView: {fileID: 0}
   _generatorView: {fileID: 1450771304}
+  _singleQuestItem: {fileID: 1752895230}
 --- !u!4 &300443897
 Transform:
   m_ObjectHideFlags: 0
@@ -2038,9 +2073,10 @@ GameObject:
   m_Component:
   - component: {fileID: 388947615}
   - component: {fileID: 388947616}
+  - component: {fileID: 388947618}
   m_Layer: 0
   m_Name: Coin_0 (12)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2112,6 +2148,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &388947618
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388947614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &404566211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,9 +2374,10 @@ GameObject:
   m_Component:
   - component: {fileID: 464664292}
   - component: {fileID: 464664293}
+  - component: {fileID: 464664295}
   m_Layer: 0
   m_Name: Coin_0 (4)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2396,6 +2449,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &464664295
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464664291}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &489431946
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,9 +3599,10 @@ GameObject:
   m_Component:
   - component: {fileID: 633646179}
   - component: {fileID: 633646180}
+  - component: {fileID: 633646182}
   m_Layer: 0
   m_Name: Coin_0 (6)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3604,6 +3674,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &633646182
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633646178}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &643747562
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,9 +3868,10 @@ GameObject:
   m_Component:
   - component: {fileID: 660429202}
   - component: {fileID: 660429203}
+  - component: {fileID: 660429205}
   m_Layer: 0
   m_Name: Coin_0 (15)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3856,6 +3943,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &660429205
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660429201}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &765606747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4034,9 +4137,10 @@ GameObject:
   m_Component:
   - component: {fileID: 802859601}
   - component: {fileID: 802859602}
+  - component: {fileID: 802859604}
   m_Layer: 0
   m_Name: Coin_0 (10)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4108,6 +4212,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &802859604
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802859600}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &838964402
 GameObject:
   m_ObjectHideFlags: 0
@@ -4388,7 +4508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900305593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.81, y: -0.93, z: 0}
+  m_LocalPosition: {x: -3.98, y: 3.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4542,9 +4662,10 @@ GameObject:
   m_Component:
   - component: {fileID: 931466526}
   - component: {fileID: 931466527}
+  - component: {fileID: 931466529}
   m_Layer: 0
   m_Name: Coin_0 (8)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4616,6 +4737,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &931466529
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931466525}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &945080589
 GameObject:
   m_ObjectHideFlags: 0
@@ -7452,9 +7589,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1455350651}
   - component: {fileID: 1455350652}
+  - component: {fileID: 1455350654}
   m_Layer: 0
   m_Name: Coin_0 (9)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7526,6 +7664,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1455350654
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455350650}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1001 &1480157912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8740,9 +8894,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1597380095}
   - component: {fileID: 1597380096}
+  - component: {fileID: 1597380098}
   m_Layer: 0
   m_Name: Coin_0 (7)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8814,6 +8969,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1597380098
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597380094}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1601132306
 GameObject:
   m_ObjectHideFlags: 0
@@ -9503,9 +9674,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1743910231}
   - component: {fileID: 1743910232}
+  - component: {fileID: 1743910234}
   m_Layer: 0
   m_Name: Coin_0 (11)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9577,6 +9749,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1743910234
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743910230}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1752895227
 GameObject:
   m_ObjectHideFlags: 0
@@ -9587,9 +9775,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1752895228}
   - component: {fileID: 1752895229}
+  - component: {fileID: 1752895231}
+  - component: {fileID: 1752895230}
   m_Layer: 0
   m_Name: Coin_0
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9661,6 +9851,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1752895230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752895227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911476091824c0e478a611850fda9752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transform: {fileID: 1752895228}
+  _spriteRenderer: {fileID: 1752895229}
+  _collider: {fileID: 1752895231}
+  _rb: {fileID: 0}
+  _completedColor: {r: 0.09620863, g: 0.8867924, b: 0.12670648, a: 0.39215687}
+  _defaultColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!58 &1752895231
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752895227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1797185190
 GameObject:
   m_ObjectHideFlags: 0
@@ -10285,9 +10509,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1909641330}
   - component: {fileID: 1909641331}
+  - component: {fileID: 1909641333}
   m_Layer: 0
   m_Name: Coin_0 (1)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10359,6 +10584,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1909641333
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909641329}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1950636430
 GameObject:
   m_ObjectHideFlags: 0
@@ -10369,9 +10610,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1950636431}
   - component: {fileID: 1950636432}
+  - component: {fileID: 1950636434}
   m_Layer: 0
   m_Name: Coin_0 (3)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10443,6 +10685,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1950636434
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950636430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1952668888
 GameObject:
   m_ObjectHideFlags: 0
@@ -10453,9 +10711,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1952668889}
   - component: {fileID: 1952668890}
+  - component: {fileID: 1952668892}
   m_Layer: 0
   m_Name: Coin_0 (2)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10527,6 +10786,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1952668892
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952668888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &1997072107
 GameObject:
   m_ObjectHideFlags: 0
@@ -10621,9 +10896,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1997652369}
   - component: {fileID: 1997652370}
+  - component: {fileID: 1997652372}
   m_Layer: 0
   m_Name: Coin_0 (13)
-  m_TagString: Untagged
+  m_TagString: QuestCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10695,6 +10971,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1997652372
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997652368}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.32
 --- !u!1 &2016656526
 GameObject:
   m_ObjectHideFlags: 0

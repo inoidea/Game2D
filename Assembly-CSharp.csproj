@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\AI\SimplePatrolAIModel.cs" />
     <Compile Include="Assets\Scripts\AI\IProtector.cs" />
     <Compile Include="Assets\Scripts\AI\ProtectedZone.cs" />
+    <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
     <Compile Include="Assets\Scripts\AI\EnemyView.cs" />
     <Compile Include="Assets\Scripts\AI\AIConfig.cs" />
     <Compile Include="Assets\Scripts\View\InteractiveObjectView.cs" />
@@ -78,7 +79,16 @@
     <Compile Include="Assets\Scripts\Controller\CannonController.cs" />
     <Compile Include="Assets\Scripts\View\GeneratorLevelView.cs" />
     <Compile Include="Assets\Scripts\View\CannonView.cs" />
-    <Compile Include="Assets\Scripts\Controller\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Controller\MarshingSquareController.cs" />
+    <Compile Include="Assets\Scripts\Configs\QuestConfig.cs" />
+    <Compile Include="Assets\Scripts\Configs\QuestItemConfig.cs" />
+    <Compile Include="Assets\Scripts\Configs\QuestStoryConfig.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IQuest.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IQuestModel.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IQuestStoryModel.cs" />
+    <Compile Include="Assets\Scripts\Controller\QuestController.cs" />
+    <Compile Include="Assets\Scripts\View\QuestObjectView.cs" />
+    <Compile Include="Assets\Scripts\Model\QuestCoinModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -12,6 +12,7 @@ namespace PlatformerMVC
         [SerializeField] private AIConfig _config;
         [SerializeField] private EnemyView _enemyView;
         [SerializeField] private GeneratorLevelView _generatorView;
+        [SerializeField] private QuestObjectView _singleQuestItem;
 
         private PlayerController _playerController;
         private CannonController _cannonController;
@@ -19,6 +20,7 @@ namespace PlatformerMVC
         private SimplePatrolAI _simplePatrolAI;
         private GeneratorController _generatorController;
         private CameraController _cameraController;
+        private QuestController _questController;
 
         private void Awake()
         {
@@ -28,8 +30,10 @@ namespace PlatformerMVC
             //_simplePatrolAI = new SimplePatrolAI(_enemyView, new SimplePatrolAIModel(_config));
             _cameraController = new CameraController(_playerView, Camera.main.transform);
             _generatorController = new GeneratorController(_generatorView);
-
             _generatorController.Start();
+
+            _questController = new QuestController(_playerView, new QuestCoinModel(), _singleQuestItem);
+            _questController.Reset();
         }
 
         void Update()

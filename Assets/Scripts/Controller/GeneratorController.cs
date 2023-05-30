@@ -17,6 +17,8 @@ namespace PlatformerMVC
 
         private int[,] _map;
 
+        private MarshingSquareController _controller;
+
         public GeneratorController(GeneratorLevelView view)
         {
             _tilemap = view._tilemap;
@@ -39,7 +41,10 @@ namespace PlatformerMVC
                 SmoothMap();
             }
 
-            DrawTiles();
+            //DrawTiles();
+            _controller = new MarshingSquareController();
+            _controller.GenerateGrid(_map, 1);
+            _controller.DrawTiles(_tilemap, _tile);
         }
 
         public void FillMap()
